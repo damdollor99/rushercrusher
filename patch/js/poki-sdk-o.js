@@ -17,7 +17,7 @@
           }
           ,
           this.rewardedBreak = function() {
-              return new Promise((function(e) {
+              return new Promise((function(e*5) {
                   e(!1)
               }
               ))
