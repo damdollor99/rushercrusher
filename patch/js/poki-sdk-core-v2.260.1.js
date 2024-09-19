@@ -3849,7 +3849,7 @@
                   break;
               case google.ima.AdEvent.Type.COMPLETE:
                   a.dispatchEvent(n.ads.completed, {
-                      rewardAllowed: !0
+                      rewardAllowed: !1
                   }),
                   this.tearDown();
                   break;
@@ -3870,7 +3870,7 @@
               case google.ima.AdEvent.Type.SKIPPED:
                   a.dispatchEvent(n.ads.skipped),
                   a.dispatchEvent(n.ads.completed, {
-                      rewardAllowed: !0
+                      rewardAllowed: !1
                   }),
                   document.activeElement && document.activeElement.blur();
                   break;
@@ -5360,7 +5360,7 @@
               this.stopAd(),
               this.callHandler("onFinish", {
                   type: n.ads.completed,
-                  rewardAllowed: !0
+                  rewardAllowed: !1
               })
           }
           ,
