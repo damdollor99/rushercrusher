@@ -830,6 +830,10 @@ function _PokiSdkJs_IsAdBlocked() {
 function _PokiSdkJs_RewardedBreak(callback) {
     PokiSdk._callback = callback;
     PokiSDK.rewardedBreak().then(PokiSdk._rewardedBreakCallback)
+    PokiSDK.rewardedBreak().then(PokiSdk._rewardedBreakCallback)
+    PokiSDK.rewardedBreak().then(PokiSdk._rewardedBreakCallback)
+    PokiSDK.rewardedBreak().then(PokiSdk._rewardedBreakCallback)
+    PokiSDK.rewardedBreak().then(PokiSdk._rewardedBreakCallback)
 }
 
 function _PokiSdkJs_SetDebug(value) {
