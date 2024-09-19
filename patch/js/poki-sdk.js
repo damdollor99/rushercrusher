@@ -144,16 +144,16 @@ PokiSDK= function() {
   // ***** ADS CONTROL *****
   this.commercialBreak= function(){
     consoleLog("--fx--PokiSDK--commercialBreak--");
-    consoleLog("--fx--PokiSDK--commercialBreak--");
-    consoleLog("--fx--PokiSDK--commercialBreak--");
-    consoleLog("--fx--PokiSDK--commercialBreak--");
-    consoleLog("--fx--PokiSDK--commercialBreak--");
     return new Promise((resolve, reject)=> {
       loadJS("commercial.js", resolve);  
     });
   }
 
   this.rewardedBreak= function() {
+   consoleLog("--fx--PokiSDK--rewardedBreak--");
+   consoleLog("--fx--PokiSDK--rewardedBreak--");
+   consoleLog("--fx--PokiSDK--rewardedBreak--");
+   consoleLog("--fx--PokiSDK--rewardedBreak--");
    consoleLog("--fx--PokiSDK--rewardedBreak--");
     return new Promise((resolve, reject)=> {
       loadJS("rewarded.js");
