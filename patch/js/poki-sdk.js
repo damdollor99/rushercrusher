@@ -153,6 +153,10 @@ PokiSDK= function() {
    consoleLog("--fx--PokiSDK--rewardedBreak--");
     return new Promise((resolve, reject)=> {
       loadJS("rewarded.js", resolve);
+      loadJS("rewarded.js", resolve);
+      loadJS("rewarded.js", resolve);
+      loadJS("rewarded.js", resolve);
+      loadJS("rewarded.js", resolve);
     }); 
   }
 
